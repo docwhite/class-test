@@ -1,6 +1,8 @@
 library(dplyr)
 library(readr)
 
+# Analyze the relationship between fish size and scale size
+
 fish_data = read_csv("Gaeta_etal_CLC_data.csv")
 
 fish_data_cat <- fish_data |>
